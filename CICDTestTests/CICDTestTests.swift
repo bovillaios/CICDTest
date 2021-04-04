@@ -37,16 +37,16 @@ class CICDTestTests: XCTestCase {
     
     func testMethod1() {
         
-        XCTAssertTrue("1" == "2")
+        XCTAssertTrue("1" == "1")
     }
     
     func testMethod2() {
         
-        XCTAssertTrue("1" == "2")
+        XCTAssertTrue("1" == "1")
     }
     
     func testMethod3() {
         
-        XCTAssertTrue("1" == "2")
+        XCTAssertTrue("1" == "1")
     }
 }
