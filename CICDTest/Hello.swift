@@ -8,7 +8,7 @@
 import Foundation
 
 
-class File {
+class Hello {
     
     func addTwoNumbers(a: Int, b: Int) -> Int {
         

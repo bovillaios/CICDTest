@@ -10,11 +10,12 @@ import XCTest
 
 class CICDTestTests: XCTestCase {
 
-    var test: File!
+    var test: Hello!
     
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        test = File()
+        test = Hello()
+        try super.setUpWithError()
     }
 
     override func tearDownWithError() throws {
