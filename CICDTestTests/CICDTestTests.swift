@@ -32,7 +32,12 @@ class CICDTestTests: XCTestCase {
     
     func testMethod() {
         
-        XCTFail("Hello World")
+        XCTAssertTrue("1" == "1")
+    }
+    
+    func testMethod1() {
+        
+        XCTAssertTrue("1" == "2")
     }
 
 }
