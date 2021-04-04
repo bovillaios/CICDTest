@@ -38,8 +38,8 @@ class CICDTestTests: XCTestCase {
     
     func testMethod() {
         
-        XCTAssertTrue("1" == "2")
+       // XCTAssertTrue("1" == "2")
         
-       // XCTAssertTrue(test.addTwoNumbers(a: 1, b: 2) == 3, "Add two numbers")
+        XCTAssertTrue(test.addTwoNumbers(a: 1, b: 2) == 3, "Add two numbers")
     }
 }
