@@ -1,5 +1,6 @@
 osx_image: xcode
 language: swift
-script:
-- fastlane scan
-
+os: osx
+xcode_project: CICDTest.xcodeproj
+xcode_scheme: CICDTest
+xcode_destination: platform=iOS Simulator,OS=14.3,name=iPhone 12 mini

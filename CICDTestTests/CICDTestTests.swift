@@ -10,11 +10,16 @@ import XCTest
 
 class CICDTestTests: XCTestCase {
 
+    var test: File!
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        test = File()
     }
 
     override func tearDownWithError() throws {
+        test  = nil
+        try super.tearDownWithError()
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
@@ -32,21 +37,6 @@ class CICDTestTests: XCTestCase {
     
     func testMethod() {
         
-        XCTAssertTrue("1" == "1")
-    }
-    
-    func testMethod1() {
-        
-        XCTAssertTrue("1" == "1")
-    }
-    
-    func testMethod2() {
-        
-        XCTAssertTrue("1" == "1")
-    }
-    
-    func testMethod3() {
-        
-        XCTAssertTrue("1" == "1")
+        XCTAssertTrue(test.addTwoNumbers(a: 1, b: 2) == 3, "Add two numbers")
     }
 }

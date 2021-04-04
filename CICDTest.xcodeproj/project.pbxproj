@@ -15,6 +15,7 @@
 		6B7BB5562619ADAB0056FB95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7BB5542619ADAB0056FB95 /* LaunchScreen.storyboard */; };
 		6B7BB5612619ADAB0056FB95 /* CICDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BB5602619ADAB0056FB95 /* CICDTestTests.swift */; };
 		6B7BB56C2619ADAB0056FB95 /* CICDTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BB56B2619ADAB0056FB95 /* CICDTestUITests.swift */; };
+		6B7BB5802619B72D0056FB95 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BB57F2619B72D0056FB95 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6B7BB5672619ADAB0056FB95 /* CICDTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7BB56B2619ADAB0056FB95 /* CICDTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDTestUITests.swift; sourceTree = "<group>"; };
 		6B7BB56D2619ADAB0056FB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B7BB57F2619B72D0056FB95 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				6B7BB5492619ADAA0056FB95 /* AppDelegate.swift */,
 				6B7BB54B2619ADAA0056FB95 /* SceneDelegate.swift */,
 				6B7BB54D2619ADAA0056FB95 /* ViewController.swift */,
+				6B7BB57F2619B72D0056FB95 /* File.swift */,
 				6B7BB54F2619ADAA0056FB95 /* Main.storyboard */,
 				6B7BB5522619ADAB0056FB95 /* Assets.xcassets */,
 				6B7BB5542619ADAB0056FB95 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B7BB54E2619ADAA0056FB95 /* ViewController.swift in Sources */,
+				6B7BB5802619B72D0056FB95 /* File.swift in Sources */,
 				6B7BB54A2619ADAA0056FB95 /* AppDelegate.swift in Sources */,
 				6B7BB54C2619ADAA0056FB95 /* SceneDelegate.swift in Sources */,
 			);
